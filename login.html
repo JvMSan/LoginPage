@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,0,0" />
+</head>
+
+<body>
+    <div class="login-card-container">
+        <div class="login-card">
+            <div class="login-card-logo">
+                <img src="./imgs/rocket.png" alt="SkyReachingLogo">
+            </div>
+            <div class="login-card-header">
+                <h1>Registre-se</h1>
+                <div>Bem vindo!</div>
+            </div>
+            <form class="login-card-form">
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded">email</span>
+                    <input type="text" placeholder="Email" autofocus required>
+                </div>
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded">lock</span>
+                    <input type="password" placeholder="Senha">
+                </div>
+                <div class="form-item-complement">
+                    <div class="checkbox">
+                        <input type="checkbox" id="rememberBox" >
+                        <label for="rememberBox">Lembre-se de mim</label>
+                    </div>
+                    <a href="#">Esqueci minha senha!</a>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="login-card-footer">
+                Não possui uma conta? <a href="#">Crie uma conta já!</a>
+            </div>
+        </div>
+        <div class="login-card-social">
+            <div>Login por:</div>
+            <div class="login-card-socialBtn">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8" />
+                      </svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-windows" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9z" />
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                      </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
